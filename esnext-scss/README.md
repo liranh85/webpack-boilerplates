@@ -1,8 +1,8 @@
 # Webpack 4 boilerplate for ESNext and SCSS
 This boilerplate will quickly set you up with:
 - Webpack 4
-- ESNext with source map (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
-- SCSS with source map
+- ESNext with a source map (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
+- SCSS with a source map
 - webpack dev server with Live Reload
 - Copying images on build
 - Cleaning dist folder on build
@@ -32,7 +32,7 @@ npm start
 ```
 2) In your browser, navigate to http://localhost:8081
 
-Webpack will now watch your code, and when a change is detected, it will re-compile it 
+Webpack will now watch your code, and when a change is detected, it will re-compile it and reload the page in your browser.
 
 ### Build
 ```
@@ -53,13 +53,10 @@ npm run lint
 ## Notes
 
 ### ESNext source map
-This boilerplate is using `devtool: 'source-map'` (defined in `webpack.dev.js`). This particular source map, whilst visually very appealing, appears to have often have wrong code evaluation in the browser devtools. If this poses a problem, try switching the `devtool` to `'eval'`.
+This boilerplate is using `devtool: 'source-map'` (defined in `webpack.dev.js`). This particular source map, whilst visually very appealing, appears to have often have wrong code evaluation in the browser devtools. If this poses a problem, try switching the `devtool` from `'source-map'` to `'eval'`.
 
 ## Dependencies
 None
 
 ## Contributing
 Feel free to submit issues and pull requests
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
