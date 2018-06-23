@@ -1,4 +1,4 @@
-# Webpack 4 boilerplate for ESNext and SCSS
+# Webpack 4 boilerplate for React and SCSS
 This boilerplate will quickly set you up with:
 - Webpack 4
 - React
