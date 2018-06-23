@@ -1,5 +1,6 @@
-import MyClass from './components/MyClass'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
 import './style.scss'
 
-const myClass = new MyClass('Welcome to Webpack!')
-myClass.greet()
+ReactDOM.render(<App/>, document.getElementById('app'))
