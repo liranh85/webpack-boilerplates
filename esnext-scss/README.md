@@ -50,11 +50,6 @@ npm run format
 npm run lint
 ```
 
-## Notes
-
-### ESNext source map
-This boilerplate is using `devtool: 'source-map'` (defined in `webpack.dev.js`). This particular source map, whilst visually very appealing, appears to have often have wrong code evaluation in the browser devtools. If this poses a problem, try switching the `devtool` from `'source-map'` to `'eval'`.
-
 ## Dependencies
 None
 
