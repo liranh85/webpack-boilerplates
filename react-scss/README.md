@@ -1,6 +1,7 @@
 # Webpack 4 boilerplate for ESNext and SCSS
 This boilerplate will quickly set you up with:
 - Webpack 4
+- React
 - ESNext with a source map (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
 - SCSS with a source map
 - webpack dev server with Live Reload
@@ -16,7 +17,7 @@ This boilerplate will quickly set you up with:
 ```
 git clone git@github.com:liranh85/webpack-boilerplates.git
 ```
-2) Copy the `esnext-scss` directory to the location you'd like your project to be in
+2) Copy the `react-scss` directory to the location you'd like your project to be in
 3) Rename this directory to your project name
 4) Inside your new project directory, run:
 ```
@@ -49,11 +50,6 @@ npm run format
 ```
 npm run lint
 ```
-
-## Notes
-
-### ESNext source map
-This boilerplate is using `devtool: 'source-map'` (defined in `webpack.dev.js`). This particular source map, whilst visually very appealing, appears to have often have wrong code evaluation in the browser devtools. If this poses a problem, try switching the `devtool` from `'source-map'` to `'eval'`.
 
 ## Dependencies
 None
