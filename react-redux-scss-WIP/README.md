@@ -1,7 +1,8 @@
-# Webpack 4 boilerplate for React and SCSS
+# Webpack 4 boilerplate for React, Redux and SCSS
 This boilerplate will quickly set you up with:
 - Webpack 4
 - React
+- Redux + a working example for fetching JSON and usage in the React app
 - ESNext with a source map (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
 - SCSS with a source map
 - webpack dev server with Live Reload
@@ -17,7 +18,7 @@ This boilerplate will quickly set you up with:
 ```
 git clone git@github.com:liranh85/webpack-boilerplates.git
 ```
-2) Copy the `react-scss` directory to the location you'd like your project to be in
+2) Copy the `react-redux-scss` directory to the location you'd like your project to be in
 3) Rename this directory to your project name
 4) Inside your new project directory, run:
 ```

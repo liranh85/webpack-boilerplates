@@ -9,7 +9,7 @@ class Post extends PureComponent {
     const { title, body } = this.props
 
     return (
-      <li className="post">
+      <li className='post'>
         <h1>{title}</h1>
         <p>{body}</p>
       </li>

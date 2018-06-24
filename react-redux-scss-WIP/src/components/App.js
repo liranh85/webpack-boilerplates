@@ -10,18 +10,31 @@ class App extends PureComponent {
 
   render () {
     const { loadPosts, posts } = this.props
-    console.log(posts)
+
     return (
-      <div className="example-app">
-        <img src="images/webpack.png" width="225" height="225" alt="Webpack logo" />
+      <div className='example-app'>
+        <img
+          src='images/webpack.png'
+          width='225'
+          height='225'
+          alt='Webpack logo'
+        />
         <h1>Webpack 4 + React + Redux + SCSS boilerplate</h1>
         <p>Congratulations, this boilerplate is set up and ready to go.</p>
-        <button className="load-posts" onClick={loadPosts}>Load dummy posts using Redux</button>
-        <p className="credit">(Courtesy of <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener">JSONPlaceholder</a>)</p>
-        <Posts
-          items={posts.items}
-          isLoading={posts.isLoading}
-        />
+        <button className='load-posts' onClick={loadPosts}>
+          Load dummy posts using Redux
+        </button>
+        <p className='credit'>
+          (Courtesy of{' '}
+          <a
+            href='https://jsonplaceholder.typicode.com/'
+            target='_blank'
+            rel='noopener'
+          >
+            JSONPlaceholder
+          </a>)
+        </p>
+        <Posts items={posts.items} isLoading={posts.isLoading} />
       </div>
     )
   }

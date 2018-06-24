@@ -8,18 +8,18 @@ class Posts extends PureComponent {
 
   render () {
     const { items, isLoading } = this.props
+
     return (
-      <div className="posts-wrapper">
-        {isLoading
-          ? (<span>Spinner</span>)
-          : (<ul className="posts">
-          {
-            items.map(item => {
+      <div className='posts-wrapper'>
+        {isLoading ? (
+          <div className='spinner' />
+        ) : (
+          <ul className='posts'>
+            {items.map(item => {
               return <Post key={item.id} {...item} />
-            })
-          }
-        </ul>)
-        }
+            })}
+          </ul>
+        )}
       </div>
     )
   }

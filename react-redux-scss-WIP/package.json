@@ -1,7 +1,7 @@
 {
-  "name": "webpack-esnext-scss",
+  "name": "webpack-react-redux-scss",
   "version": "1.0.0",
-  "description": "A webpack 4 boilerplate for ESNext and SCSS",
+  "description": "A webpack 4 boilerplate for React, Redux and SCSS",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",

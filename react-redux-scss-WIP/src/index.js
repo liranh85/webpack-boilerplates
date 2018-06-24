@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import reducers from './redux'
 import App from './components/App'
-import './style.scss'
+import './scss/index.scss'
 
 let middleware = [thunk]
 
