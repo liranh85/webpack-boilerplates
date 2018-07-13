@@ -14,6 +14,7 @@ class App extends PureComponent {
     return (
       <div className='example-app'>
         <img
+          className='webpack-logo'
           src='images/webpack.png'
           width='225'
           height='225'

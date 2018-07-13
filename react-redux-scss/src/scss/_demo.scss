@@ -12,6 +12,10 @@ body {
 }
 
 .example-app {
+	.webpack-logo {
+		animation: slide-in 1s backwards;
+	}
+
 	.load-posts {
 		margin-top: 15px;
 		font-size: 13px;
@@ -54,5 +58,16 @@ body {
 				font-size: 12px;
 			}
 		}
+	}
+}
+
+@keyframes slide-in {
+	from {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }

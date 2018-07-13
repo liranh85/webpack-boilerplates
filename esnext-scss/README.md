@@ -1,13 +1,13 @@
 # Webpack 4 boilerplate for ESNext and SCSS
 This boilerplate will quickly set you up with:
 - Webpack 4
-- ESNext with a source map (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
-- SCSS with a source map
+- ESNext with source maps (plus: class-properties, es2015-modules-commonjs and object-rest-spread)
+- SCSS with source maps and autoprefixer
 - webpack dev server with Live Reload
 - Copying images on build
 - Cleaning dist folder on build
 - Separate configuration for dev and prod
-- Uglify on prod build
+- CSS and JS optimisation on prod build
 - Prettier-standard
 - ESLint
 
