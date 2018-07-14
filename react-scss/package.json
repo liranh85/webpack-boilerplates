@@ -1,6 +1,6 @@
 {
   "name": "webpack-react-scss",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A webpack 4 boilerplate for React and SCSS",
   "main": "dist/index.js",
   "scripts": {
