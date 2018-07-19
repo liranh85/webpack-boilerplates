@@ -1,15 +1,15 @@
 import { API_ROOT } from '../../constants'
 
-const LOAD_FAILED = '/users/LOAD_FAILED'
-const LOAD_STARTED = '/users/LOAD_STARTED'
-const LOAD_SUCCEEDED = '/users/LOAD_SUCCEEDED'
+const LOAD_FAILED = '/posts/LOAD_FAILED'
+const LOAD_STARTED = '/posts/LOAD_STARTED'
+const LOAD_SUCCEEDED = '/posts/LOAD_SUCCEEDED'
 
 const initialState = {
   isLoading: false,
   items: []
 }
 
-export default function users (state = initialState, action) {
+export default function posts (state = initialState, action) {
   switch (action.type) {
     case LOAD_FAILED:
       return {
